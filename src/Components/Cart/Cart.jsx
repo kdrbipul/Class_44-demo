@@ -1,10 +1,15 @@
 import React from 'react';
-
-const Cart = () => {
+import Congrat from '../Congrat/Congrat';
+import './Cart.css'
+const Cart = ({cart}) => {
     return (
-        <div className='container'>
-            <h1 className='my-2'>Cart</h1>
+        <div className='container cart_container'>
+            <h1 className={cart.length === 2 ? `orange` : 'purple'}>Cart {cart.length}</h1>
+            {
+                cart.length === 3 ? <Congrat></Congrat> : undefined
+            }
         </div>
+        
     );
 };
 
