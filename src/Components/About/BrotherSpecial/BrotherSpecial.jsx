@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { MyContext } from '../GrandFather/GrandFather';
 
 const BrotherSpecial = () => {
+    const mon = useContext(MyContext)
     return (
         <div className='common'>
-            <h1>Vai Special : </h1>
+            <h1>Vai Special : {mon} </h1>
         </div>
     );
 };
