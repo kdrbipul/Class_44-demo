@@ -1,9 +1,10 @@
 import React from 'react';
+import GrandFather from './GrandFather/GrandFather';
 
 const About = () => {
     return (
         <div className='container'>
-            <h1>This is About</h1>
+            <GrandFather />
         </div>
     );
 };
