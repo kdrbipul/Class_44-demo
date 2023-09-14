@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Uncle = ({money}) => {
+const Uncle = () => {
     return (
         <div className='common'>
-            <h1>Uncle : {money}</h1>
+            <h1>Uncle : </h1>
         </div>
     );
 };

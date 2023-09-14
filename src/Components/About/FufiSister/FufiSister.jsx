@@ -1,9 +1,9 @@
 import React from 'react';
 
-const FufiSister = ({money}) => {
+const FufiSister = () => {
     return (
         <div className='common'>
-            <h1>Fufi Sister : {money}</h1>
+            <h1>Fufi Sister : </h1>
         </div>
     );
 };

@@ -1,11 +1,11 @@
 import React from 'react';
 import FufiSister from '../FufiSister/FufiSister';
 
-const Fufi = ({money}) => {
+const Fufi = () => {
     return (
         <div className='common'>
-            <h1>Fufi : {money}</h1>
-            <FufiSister money={money}></FufiSister>
+            <h1>Fufi : </h1>
+            <FufiSister></FufiSister>
         </div>
     );
 };

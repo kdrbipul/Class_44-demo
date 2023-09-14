@@ -12,9 +12,9 @@ const GrandFather = () => {
         <div className='common my-5'>
             <h1>Dadu : {money}</h1>
             <div className='d-flex justify-content-between'>
-                <Father money={money}></Father>
-                <Uncle money={money}></Uncle>
-                <Fufi money={money}></Fufi>
+                <Father></Father>
+                <Uncle></Uncle>
+                <Fufi></Fufi>
             </div>
             
         </div>
